@@ -16,7 +16,7 @@ export default defineConfig({
   },
   build: {
     manifest:"manifest.json",
-    outDir: '../../public',
+    outDir: './public',
     emptyOutDir: true,
     sourcemap: true,
     minify: true,
